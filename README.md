@@ -1,2 +1,0 @@
-# AnyGuideItineraries
-Created with CodeSandbox
