@@ -10,7 +10,12 @@ import "./styles.css";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App itineraryCreator-container">
+      <div className="itineraryCreator-panel">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+      </div>
       <Form>
         <FormGroup controlId="formBasicText">
           <ControlLabel>Day 1 Title</ControlLabel>
