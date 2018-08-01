@@ -11,15 +11,21 @@ import "./styles.css";
 function App() {
   return (
     <div className="App itineraryCreator-container">
-      <div className="itineraryCreator-panel">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-      </div>
       <Form>
+        <div className="itineraryCreator-panel">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+        </div>
+        <hr />
         <FormGroup controlId="formBasicText">
           <ControlLabel>Day 1 Title</ControlLabel>
-          <FormControl type="text" value="" placeholder="Enter description" />
+          <FormControl
+            type="text"
+            value=""
+            placeholder="Enter description"
+            className="itinerary-description-text"
+          />
           <FormControl.Feedback />
           <HelpBlock>Validation is based on string length.</HelpBlock>
         </FormGroup>
