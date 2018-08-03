@@ -10,11 +10,9 @@ import "./styles.css";
 
 function App() {
   return (
-    <div className="App itineraryCreator-container">
+    <div className="App">
       <Form>
-        <div className="itineraryCreator-panel">
-          <ItineraryCreationPanel />
-        </div>
+        <ItineraryCreationPanel />
         <hr />
         <FormGroup controlId="formBasicText">
           <ControlLabel>Day 1 Title</ControlLabel>
