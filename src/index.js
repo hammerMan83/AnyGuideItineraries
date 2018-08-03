@@ -5,10 +5,7 @@ import { ControlLabel } from "react-bootstrap";
 import { FormControl } from "react-bootstrap";
 import { HelpBlock } from "react-bootstrap";
 import { Form } from "react-bootstrap";
-import PanelCoverPhotoImage from "../images/digital-camera_blue.png";
-import PanelTripDatesImage from "../images/passage-of-time_blue.png";
-import PanelGeneralDescriptionImage from "../images/note_blue.png";
-
+import ItineraryCreationPanel from "./itineraryCreationPanel";
 import "./styles.css";
 
 function App() {
@@ -16,9 +13,7 @@ function App() {
     <div className="App itineraryCreator-container">
       <Form>
         <div className="itineraryCreator-panel">
-          <img src={PanelCoverPhotoImage} className="panel-image" />
-          <img src={PanelTripDatesImage} className="panel-image" />
-          <img src={PanelGeneralDescriptionImage} className="panel-image" />
+          <ItineraryCreationPanel />
         </div>
         <hr />
         <FormGroup controlId="formBasicText">

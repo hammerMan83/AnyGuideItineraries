@@ -1,0 +1,13 @@
+.itineraryCreator-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.panel-image {
+  max-width: 230px;
+  max-height: 50px;
+  margin-right: 20px;
+}
