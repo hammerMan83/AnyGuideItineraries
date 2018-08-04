@@ -5,24 +5,37 @@ import { ControlLabel } from "react-bootstrap";
 import { FormControl } from "react-bootstrap";
 import { HelpBlock } from "react-bootstrap";
 import { Form } from "react-bootstrap";
-import ItineraryCreationPanel from "./itineraryCreationPanel";
+import TopPanel from "./topPanel";
 import "./styles.css";
 
 function App() {
   return (
     <div className="App">
       <Form>
-        <ItineraryCreationPanel />
+        <TopPanel />
         <hr />
         <FormGroup controlId="formBasicText">
           <ControlLabel>Day 1 Title</ControlLabel>
+
           <FormControl
+            componentClass="textarea"
+            placeholder="Enter description"
+            rows="3"
+            style={{
+              display: "block",
+              marginLeft: "1em",
+              marginRight: "1em",
+              resize: "none"
+            }}
+          />
+          {/*<FormControl
             type="text"
             value=""
             placeholder="Enter description"
             className="itinerary-description-text"
           />
-          <FormControl.Feedback />
+          <FormControl.Feedback />*/}
+
           {/*<HelpBlock>Validation is based on string length.</HelpBlock>--> */}
         </FormGroup>
         <hr />
