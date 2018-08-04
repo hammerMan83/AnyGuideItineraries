@@ -6,3 +6,37 @@
   margin: 0.7em;
   max-width: 50em;
 }
+
+.panel-image {
+  max-height: 3.5em;
+  max-width: 3.5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.panel-image-label {
+  margin-top: 0.5em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1em;
+  color: darkcyan;
+}
+
+.titlePanel {
+  width: 100%;
+  text-align: left;
+}
+
+.titlePanelImage {
+  max-height: 3em;
+  max-width: 3em;
+  margin: 1em 1em 1em 1em;
+}
+
+.titlePanelText {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1em;
+  color: black;
+}

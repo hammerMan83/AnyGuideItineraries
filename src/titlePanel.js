@@ -1,6 +1,5 @@
 import React from "react";
 import PanelTimeImage from "../images/time.png";
-import "./titlePanel.css";
 
 const TitlePanel = ({ dayNumber }) => (
   <div className="titlePanel">
