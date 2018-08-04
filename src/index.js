@@ -7,6 +7,7 @@ import { HelpBlock } from "react-bootstrap";
 import { Form } from "react-bootstrap";
 import TopPanel from "./topPanel";
 import "./styles.css";
+import TitlePanel from "./titlePanel";
 
 function App() {
   return (
@@ -14,9 +15,9 @@ function App() {
       <Form>
         <TopPanel />
         <hr />
+        <TitlePanel dayNumber="1" />
         <FormGroup controlId="formBasicText">
-          <ControlLabel>Day 1 Title</ControlLabel>
-
+          {/* <ControlLabel>Day 1 Title</ControlLabel> */}
           <FormControl
             componentClass="textarea"
             placeholder="Enter description"
