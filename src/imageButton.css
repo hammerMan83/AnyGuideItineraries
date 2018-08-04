@@ -4,7 +4,17 @@
 }
 
 .panel-image {
-  max-height: 90px;
-  width: auto;
-  /* margin-right: 20px; */
+  max-height: 50px;
+  max-width: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.panel-image-label {
+  margin-top: 0.5em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 0.9em;
+  color: darkcyan;
 }
