@@ -8,6 +8,7 @@ const TitlePanel = ({ dayNumber }) => (
       <span className="titlePanelText">{"Day " + dayNumber}</span>
     </div>
     <span className="titlePanelHeadline">Day 1 Title</span>
+    <div />
   </div>
 );
 
