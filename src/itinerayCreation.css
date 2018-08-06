@@ -17,13 +17,14 @@
 
 .panel-image-label {
   margin-top: 0.5em;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
   font-size: 1em;
   color: darkcyan;
 }
 
 .titlePanel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   width: 100%;
   text-align: left;
 }
@@ -35,8 +36,11 @@
 }
 
 .titlePanelText {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
   font-size: 1em;
+  color: black;
+}
+
+.titlePanelHeadline {
+  font-size: 1.5em;
   color: black;
 }
