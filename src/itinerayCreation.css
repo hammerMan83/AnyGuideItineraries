@@ -27,7 +27,7 @@
   width: 100%;
   text-align: left;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .titlePanelImage {
@@ -41,7 +41,14 @@
   color: black;
 }
 
+.titlePanelHeadlineContainer {
+  margin: 0px auto;
+}
+
 .titlePanelHeadline {
   font-size: 1.5em;
   color: black;
+  /* left: 50%; */
+  margin: -50%;
+  /* padding-right: 75px; */
 }

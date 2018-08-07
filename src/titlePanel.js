@@ -7,7 +7,9 @@ const TitlePanel = ({ dayNumber }) => (
       <img src={PanelTimeImage} className="titlePanelImage" alt="" />
       <span className="titlePanelText">{"Day " + dayNumber}</span>
     </div>
-    <span className="titlePanelHeadline">Day 1 Title</span>
+    <div class="titlePanelHeadlineContainer">
+      <span className="titlePanelHeadline">Day 1 Title</span>
+    </div>
     <div />
   </div>
 );
