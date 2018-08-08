@@ -8,16 +8,19 @@ import { Form } from "react-bootstrap";
 import TopPanel from "./topPanel";
 import "./styles.css";
 import TitlePanel from "./titlePanel";
+import AddDayImage from "../images/plus.png";
 
 function App() {
   return (
     <div className="App">
       <Form>
         <TopPanel />
-        <hr />
-        <TitlePanel dayNumber="1" />
+
+        <hr className="topHr" />
+
         <FormGroup controlId="formBasicText">
-          {/* <ControlLabel>Day 1 Title</ControlLabel> */}
+          <TitlePanel dayNumber="1" />
+
           <FormControl
             componentClass="textarea"
             placeholder="Enter description"
@@ -29,17 +32,15 @@ function App() {
               resize: "none"
             }}
           />
-          {/*<FormControl
-            type="text"
-            value=""
-            placeholder="Enter description"
-            className="itinerary-description-text"
-          />
-          <FormControl.Feedback />*/}
+
+          <hr className="bottomHr" />
+
+          <div class="addDayImageButton">
+            <img src={AddDayImage} className="dayLocationImage" alt="" />
+          </div>
 
           {/*<HelpBlock>Validation is based on string length.</HelpBlock>--> */}
         </FormGroup>
-        <hr />
       </Form>
     </div>
   );

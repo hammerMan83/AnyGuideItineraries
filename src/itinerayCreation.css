@@ -41,14 +41,21 @@
   color: black;
 }
 
-.titlePanelHeadlineContainer {
+.dayTitleContainer {
   margin: 0px auto;
 }
 
-.titlePanelHeadline {
+/* TODO: Find a better way to center the day title. */
+.dayTitle {
   font-size: 1.5em;
   color: black;
   /* left: 50%; */
-  margin: -50%;
+  /* margin: -50%; */
   /* padding-right: 75px; */
+}
+
+.dayLocationImage {
+  max-height: 3em;
+  max-width: 3em;
+  margin: 1em 1em 1em 1em;
 }
