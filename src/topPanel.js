@@ -1,5 +1,5 @@
 import React from "react";
-import "./itinerayCreation.css";
+import "./topPanelStyles.css";
 import PanelCoverPhotoImage from "../images/digital-camera_blue.png";
 import PanelTripDatesImage from "../images/passage-of-time_blue.png";
 import PanelGeneralDescriptionImage from "../images/note_blue.png";
