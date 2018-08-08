@@ -7,7 +7,8 @@ import { HelpBlock } from "react-bootstrap";
 import { Form } from "react-bootstrap";
 import TopPanel from "./topPanel";
 import "./styles.css";
-import TitlePanel from "./titlePanel";
+import TitlePanel from "./dayTopPanel.js";
+import DayBottomPanel from "./dayBottomPanel.js";
 import AddDayImage from "../images/plus.png";
 
 function App() {
@@ -33,10 +34,13 @@ function App() {
             }}
           />
 
+          <DayBottomPanel class="dayBottomPanel" />
+
           <hr className="bottomHr" />
 
           <div class="addDayImageButton">
             <img src={AddDayImage} className="dayLocationImage" alt="" />
+            <span className="addDayButtonText">Add Day</span>
           </div>
 
           {/*<HelpBlock>Validation is based on string length.</HelpBlock>--> */}
